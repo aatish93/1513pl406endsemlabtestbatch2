@@ -29,9 +29,6 @@ public class Votemain {
 		evmlist[1]=new Evm(b2,c2,d2);
 		Constituency panjim=new Constituency(evmlist);
 		
-		evmlist[0].votenow(1);
-		evmlist[0].votenow(1);
-		evmlist[0].votenow(1);
 		panjim.ttlvotecount();
 	}
 }

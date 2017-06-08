@@ -11,13 +11,12 @@ public class Constituency {
 		int i,j,k;
 		for(i=0;i<evm.length;i++){
 			for(j=0;j<evm[i].b.button.length;j++){
-				for(k=0;k<evm.length;k++){
-					res[j]=res[j]+evm[k].c.getcount(k);
-				}
-				System.out.print(evm[k].b.button[k].name);
+				res[j]=res[j]+evm[i].c.getcount(i);
+				System.out.print(evm[i].b.button[j].name);
 				System.out.println(res[j]);
 			}
 			
 		}
+		
 	}
 }
