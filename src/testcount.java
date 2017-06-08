@@ -18,7 +18,6 @@ public class testcount {
 		
 		Evm[] evmlist=new Evm[2];
 		evmlist[0]=new Evm(b1,c1,d1);
-		Constituency panjim=new Constituency(evmlist);
 		
 		assertEquals(0,evmlist[0].c.getcount(0));
 		assertEquals(0,evmlist[0].c.getcount(1));
