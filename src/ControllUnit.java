@@ -11,4 +11,9 @@ public class ControllUnit {
 	public int getcount(int i){
 		return d.b.button[i].count;
 	}
+	public void reset(){
+		for(int i=0;i<d.b.button.length;i++){
+			d.b.button[i].count=0;
+		}
+	}
 }
